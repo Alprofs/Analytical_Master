@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Analytical Master</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Cairo:wght@400;600;700;800;900&family=Almarai:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    
+    <!-- === إضافة مكتبة المعادلات KaTeX === -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <!-- =================================== -->
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <!-- باقي كود HTML الخاص بك كما هو دون تغيير -->
+
+    <header class="app-header">
+        <button id="back-btn" class="icon-btn hidden">◀</button>
+        <div id="app-title">Analytical Master</div>
+        <div style="width: 24px;"></div> 
+    </header>
+
+    <div id="app-container"></div>
+
+    <button id="floating-translate-btn" class="floating-btn hidden" onclick="UI.toggleTranslation()">🌐 Translate</button>
+
+    <div id="win-overlay" class="overlay">
+        <div class="dialog">
+            <h1 style="color: var(--btn-green); font-size: 38px; margin: 0 0 15px 0;">Excellent! 🎉</h1>
+            <p style="font-size: 18px; font-weight: 800; color: #333; margin-bottom: 30px;">You have successfully answered all questions.</p>
+            <button class="btn-main" style="width: 100%; box-shadow: 0 6px 0 var(--btn-green-dark);" onclick="App.completeLecture()">Go Home</button>
+        </div>
+    </div>
+
+    <!-- استدعاء ملف البيانات الهيكلي، ثم ملفات المحاضرات المقسمة -->
+    <script src="js/data.js"></script> 
+    <script src="js/lectures/lec1.js"></script> 
+    <script src="js/lectures/lec2.js"></script> 
+    <script src="js/lectures/lec3.js"></script> 
+    <script src="js/lectures/lec4.js"></script> 
+    <script src="js/lectures/lec5.js"></script> 
+    <script src="js/lectures/lec6.js"></script> 
+    <script src="js/lectures/lec7.js"></script> 
+    <script src="js/lectures/lec8.js"></script> 
+    <script src="js/lectures/lec9.js"></script> 
+    <script src="js/lectures/lec10.js"></script> 
+    <script src="js/lectures/lec11.js"></script> 
+    <script src="js/lectures/lec12.js"></script> 
+    
+    <script src="js/ui.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
