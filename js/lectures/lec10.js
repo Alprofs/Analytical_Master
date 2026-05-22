@@ -225,7 +225,7 @@ DataStore.lectures.push({
         },
         {
             "q": "8. If 0.1 N AgNO3 is added to a mixture of 0.1 M NaCl, KI, and KBr, which precipitate is formed?",
-            "a": "<strong>c) AgI</strong>"
+            "a": "<strong>D) All are formed</strong>"
         },
         {
             "q": "9. The common ion effect results in:",
@@ -323,7 +323,7 @@ DataStore.lectures.push({
         {
             "question": "If 0.1 N AgNO3 is added to a mixture of 0.1 M NaCl, KI, and KBr, which precipitate is formed first?",
             "options": ["AgCl", "AgBr", "AgI", "All are formed"],
-            "correct": 2,
+            "correct": 3,
             "hint": "The one with the lowest Ksp precipitates first.",
             "questionAr": "إذا تمت إضافة 0.1 N AgNO3 إلى خليط من 0.1 M NaCl و KI و KBr، أي راسب سيتكون أولاً؟", 
             "optionsAr": ["AgCl", "AgBr", "AgI", "جميعها تتكون"], 
